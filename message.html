@@ -6,9 +6,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
 </head>
+<style>
+    .row{
+        margin-top: 25vh;
+    }
+   body{
+       background-image: url(./depositphotos_108649144-stock-illustration-vector-image-of-secret-word.jpg);
+   }
+        h1{
+            margin-top: 0;
+        }
+    
+</style>
 <body>
 <div class="row">
 <div class="col s8 offset-s2">
+    <div id="message-show" class="card-panel hide">
+        <h1></h1>
+        <div>
+            <a href="./message.html">Create your Own Secret Message</a>
+        </div>
+    </div>
     <div id="message-form" class="card-panel">
         <form>
             <label>Enter a Secret Message</label>
